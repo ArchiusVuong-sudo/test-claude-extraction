@@ -1,0 +1,19 @@
+{
+  "name": "extract-msg",
+  "version": "1.0.0",
+  "description": "Track Claude Code conversation deltas in real-time",
+  "main": "extract_msg.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node extract_msg.js",
+    "dev": "ts-node extract_msg.ts"
+  },
+  "dependencies": {
+    "commander": "^11.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "typescript": "^5.3.3",
+    "ts-node": "^10.9.2"
+  }
+}
